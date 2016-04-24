@@ -9,5 +9,6 @@ public class testSnuTekst {
 		System.out.println("Skriv inn tekst som skal:");
 		tekst = input.nextLine();
 		System.out.println("Teksten du skrev blir dette baklengs: " + snuTekst.SnuTekst(tekst));
+		System.out.println("Funksjonen ble kallt " + snuTekst.antKall + " ganger for aa snu teksten");
 	}
 }
